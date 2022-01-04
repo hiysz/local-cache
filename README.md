@@ -7,7 +7,6 @@ go get github.com/hiysz/localcache
 ```
 
 ## example
-Using [Gin](https://github.com/gin-gonic/gin):
 ```go
 package main
 

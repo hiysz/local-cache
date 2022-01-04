@@ -1,7 +1,7 @@
 package localcache
 
 type ICache interface {
-	Put(k string, v interface{}) (bool, error)
+	Set(k string, v interface{}) error
 	Get(k string) (interface{}, error)
 	Del(k ...string) (bool, error)
 	Exist(k string) (bool, error)
